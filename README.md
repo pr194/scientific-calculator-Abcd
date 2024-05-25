@@ -17,7 +17,7 @@ Clone the repository:
 
 sh
 Copy code
-git clone https://github.com/pr194/calculator-app.git
+git clone https://github.com/pr194/scientific-calculator-Abcd
 cd calculator-app
 Install dependencies:
 
