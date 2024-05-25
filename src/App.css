@@ -1,0 +1,307 @@
+.main-div {
+  height: 68vh;
+  width: 49vw;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: #1C1C1C;
+  border-radius: 10px;
+  border: 2px solid #505050;
+
+}
+
+.upper-div {
+  width: 98%;
+  margin: auto;
+  height: 17vh;
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first {
+  margin-top: 7px;
+  width: 10vw;
+  height: 2vh;
+  display: flex;
+  gap: 7px;
+
+}
+
+.red {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(246, 84, 84);
+}
+
+.yellow {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(232, 232, 115);
+}
+
+.green {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(155, 240, 155);
+}
+.scimg{
+  height: 10.3vh;
+  width: 65px;
+  border: none;
+}
+.clear {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  text-align:end;
+  color: white;
+  cursor: pointer;
+}
+
+.second {
+  margin-right: 3px;
+  height: 9vh;
+  margin-top: 2vh;
+  width: 30vw;
+  
+}
+
+input:focus {
+  outline-style: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.second input {
+  height: 100%;
+  background-color: #1C1C1C;
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+
+  font-size: 10vh;
+  border: none;
+  font-weight: 290;
+  text-align: right;
+  caret-color: transparent;
+}
+
+.btn:focus {
+  outline: none;
+  outline-style: none;
+  box-shadow: none;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.btn-Div {
+  height: 10vh;
+  width: 62px;
+  border-right: 1.3px solid #1C1C1C;
+  border-bottom: 1.3px solid #1C1C1C;
+}
+
+.btn-DIV {
+  height: 10vh;
+  width: 125px;
+  border-right: 1.3px solid #1C1C1C;
+}
+
+.btn {
+
+  border: none;
+  background-color: #505050;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  height: 100%;
+  background-color: #505050;
+
+}
+
+.last-btn {
+  border: none;
+  background-color: #FF9500;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+.last-btn-div {
+  height: 10vh;
+  width: 62px;
+}
+
+.btn-corner {
+  border: none;
+  background-color: #505050;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  height: 100%;
+  background-color: #505050;
+  border-bottom-left-radius: 10px;
+  border-bottom: none;
+}
+
+.last-Btn {
+  border: none;
+  background-color: #FF9500;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+
+
+}
+
+.btn-number {
+  border: none;
+  background-color: #505050;
+  color: white;
+  font-size: larger;
+  width: 100%;
+  height: 100%;
+  background-color: #888888;
+}
+
+.sp {
+  font-size: small;
+
+}
+
+.btn-design {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+
+}
+
+.sp1 {
+  margin-top: 3px;
+  font-size: large;
+  font-weight: 400;
+}
+
+.sp3 {
+  font-size: 13px;
+  height: 100%;
+  margin-bottom: 3px;
+}
+
+.sp4 {
+  font-size: large;
+}
+.sp5{
+  font-size: 10px;
+  
+}
+
+.Main {
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  background-color: black;
+
+}
+
+.Main2 {
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+
+  background-color: whitesmoke;
+}
+
+.mode-change {
+
+  width: 10vw;
+  text-align: center;
+}
+
+.mode-change button {
+  border: none;
+  margin-top: 10px;
+  border-radius: 100px;
+  background-color: bisque;
+}
+
+.condiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  .main-div {
+    width: 95vw;
+  }
+
+  .second input {
+    font-size: 5vh;
+  }
+
+  .btn-Div, .btn-DIV, .last-btn-div {
+    height: 7vh;
+    width: 22%;
+    max-width: 70px;
+  }
+
+  .btn-number, .btn, .last-btn, .last-Btn {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-div {
+    width: 100vw;
+    border: none;
+  }
+
+  .second input {
+    font-size: 4vh;
+  }
+
+  .btn-Div, .btn-DIV, .last-btn-div {
+    height: 6vh;
+    width: 25%;
+    max-width: 65px;
+  }
+
+  .btn-number, .btn, .last-btn, .last-Btn {
+    font-size: small;
+  }
+
+  .upper-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first {
+    margin-top: 5px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .second {
+    margin-top: 5px;
+    width: 90%;
+  }
+}
